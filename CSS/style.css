@@ -13,14 +13,17 @@
 @font-face {
     font-family: "ChakraPetch-Regular";
     src: url("../Font/ChakraPetch-Regular.ttf");
+    font-display: swap;
 }
 @font-face {
     font-family: "ChakraPetch-bold";
     src: url("../Font/ChakraPetch-Bold.ttf");
+    font-display: swap;
 }
 @font-face {
     font-family: "DaysOne";
     src: url("../Font/DaysOne-Regular.ttf");
+    font-display: swap;
 }
 .black-color{
     color: var(--third-color);
