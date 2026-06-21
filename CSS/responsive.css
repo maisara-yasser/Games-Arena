@@ -1,0 +1,57 @@
+@media screen and (max-width: 575px) {
+    .what-we-do .row .box h4 {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 400px){
+    .what-we-do .row .box{
+        aspect-ratio: 1;
+    }
+}
+@media screen and (min-width: 576px) {   
+    :root{
+        --section-padding: 96px 0;
+    }
+    #hero .hero-caption h1{
+        width: 60%;
+        margin: auto;
+    }
+    .mainHeading h3 ,.mainHeading p{
+        font-size: 2rem;
+    }
+    .contact .row .item .icons .icon-bg{
+        width: 48px ;
+        height: 48px;
+    }
+}
+@media screen and (min-width: 768px) {   
+    #hero .hero-caption h1{
+        font-size: 48px;
+        line-height: 60px;
+        width: 80%;
+        margin: auto;
+    }
+    #hero .hero-caption > div > p{
+        line-height: 26px;
+        width: 80%;
+        margin: auto;
+    }
+    #hero .hero-caption button{
+        width: fit-content;
+    }
+    .mainHeading h3 ,.mainHeading p{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 992px) {
+    #hero .hero-caption h1{
+        font-size: 60px;
+        line-height: 75px;
+        width: 100%;
+        margin: 0;
+    }
+    #hero .hero-caption > div > p{
+        width: 92%;
+        margin: 0;
+    }
+}
